@@ -1,0 +1,131 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* ---------------------------------Menu--------------------------------------- */
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav img {
+    width: 130px;
+}
+
+ul {
+    display: flex;
+    margin-top: 1%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+
+nav i {
+    color: #007AEB;
+    padding-top: 5px;
+}
+
+ul li {
+    list-style: none;
+    /* padding: 5px 5px; */
+    margin-left: 5px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 70px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.active {
+    color: rgb(8, 236, 0);
+}
+
+
+/* -----------------------------------------------Display post---------------------------------- */
+
+.container .card .image-profile {
+    border-radius: 60px;
+}
+
+.container .post-photo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .button {
+    width: 90%;
+    padding: 10px;
+    border-radius: 30px;
+    outline: none;
+    border: #edf5fd solid 1px;
+}
+
+.container .card {
+    border-radius: 20px;
+    margin-top: -20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.container .card .card-footer {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.container .card .card-head {
+    display: flex;
+}
+
+.container .card .footer-post {
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+/* ---------------------------------------------Create----------------------------- */
+
+.container-create .description {
+    padding: 10px;
+}
+
+.container-create .card .footer-post button {
+    margin: 5px;
+}
+
+.card-head-info i {
+    color: #007AEB;
+    font-size: 20px;
+}
+
+.container .card-head-profile .cover {
+    height: 250px;
+    width: 100%;
+    background-image: url(../images/girl.jpg);
+}
+
+.card-comment {
+    display: flex;
+    align-items: center;
+}
+
+.focus {
+    color: #007AEB;
+}
+
+.image-profile {
+    border: 2px solid #007AEB;
+}
